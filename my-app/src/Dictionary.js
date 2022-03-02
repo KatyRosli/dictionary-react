@@ -6,7 +6,7 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${keyword} defination`);
+    alert(`Searching for ${keyword} definition`);
   }
 
   function handleKeywordChange(event) {
@@ -14,9 +14,8 @@ export default function Dictionary() {
   }
   return (
     <div className="Dictionary">
-      <form className="form-inline">
+      <form onSubmit={search} className="form-inline">
         <input
-          onSubmit={search}
           className="form-control"
           type="search"
           placeholder="Search for a word..."
