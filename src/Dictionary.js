@@ -20,6 +20,7 @@ export default function Dictionary(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    search();
   }
 
   function handleKeywordChange(event) {
@@ -42,6 +43,7 @@ export default function Dictionary(props) {
             autoFocus="on"
             aria-label="Search"
             onChange={handleKeywordChange}
+            defaultValue={props.defaultKeyword}
           />
           <button type="submit" value="Search" className="btn btn-warning">
             <i className="fa-solid fa-magnifying-glass"></i>
