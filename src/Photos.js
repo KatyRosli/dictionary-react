@@ -1,4 +1,5 @@
 import React from "react";
+import "./Photos.css";
 
 export default function Photos(props) {
   if (props.photos) {
@@ -12,11 +13,12 @@ export default function Photos(props) {
                   href={photo.src.original}
                   target="_blank"
                   rel="noopener noreferrer"
+                  class="img-fluid rounded projects"
                 >
                   <img
                     src={photo.src.landscape}
                     alt="photos"
-                    className="img-fluid"
+                    class="img-fluid rounded projects"
                   />
                 </a>
               </div>

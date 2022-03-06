@@ -3,7 +3,7 @@
 }
 
 .top-header {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 button,
@@ -29,4 +29,8 @@ h1 {
   line-height: normal;
   margin-bottom: 0;
   font-size: 40px;
+}
+
+.section-meanings {
+  margin-bottom: 24px;
 }
