@@ -1,20 +1,48 @@
-.form-control {
+.form-inline {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  margin-bottom: 24px;
+}
+
+.form-control {
+  width: 88%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
   border-radius: 24px;
+  border: 2px;
   border-color: #4586af;
   box-shadow: 0 0 4px #4586af;
+  padding: 8px 16px;
 }
 
 .form-control:focus {
-  width: 100%;
+  width: 88%;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   border-radius: 24px;
   outline: none;
+  border: 2px;
   border-color: #4586af;
-  box-shadow: 0 0 16px #4586af;
+  box-shadow: 0 0 24px #4586af;
+  padding: 8px 8px;
+}
+
+.btn {
+  padding: 8px 16px;
+}
+
+.btn,
+.btn-primary {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  float: right;
+  border-radius: 24px;
+  margin-left: 16px;
+  margin-right: 0px;
+  padding: 16px, 24px !important;
+  border: none;
 }

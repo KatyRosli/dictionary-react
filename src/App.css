@@ -38,7 +38,7 @@ container {
   background: var(--subsupporting-color);
   border-radius: 24px;
   border-color: #4586af;
-  box-shadow: 0 0 6px #4586af;
+  box-shadow: 0 0 8px #4586af;
 }
 
 .App {
@@ -51,12 +51,16 @@ container {
 }
 
 .App-name {
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 800;
+  font-size: 48px;
   text-align: center;
   margin-bottom: 24px;
-  color: var(--branding-color);
-  text-shadow: 0 0 8px #4586af;
+  background: var(--primary-color);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 footer {

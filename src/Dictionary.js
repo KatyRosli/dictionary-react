@@ -57,7 +57,11 @@ export default function Dictionary(props) {
             onChange={handleKeywordChange}
             defaultValue={props.defaultKeyword}
           />
-          <button type="submit" value="Search" className="btn btn-warning">
+          <button
+            type="submit"
+            value="Search"
+            className="btn btn-outline-primary"
+          >
             <i className="fa-solid fa-magnifying-glass"></i>
           </button>
         </form>

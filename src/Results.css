@@ -1,0 +1,32 @@
+.Results {
+  color: var(--secondary-color);
+}
+
+.top-header {
+  margin-bottom: 16px;
+}
+
+button,
+.btn-listen {
+  background: transparent;
+  float: left;
+  margin-right: 16px;
+  border: none;
+}
+
+.listen-icon {
+  margin-top: 2px;
+  font-size: 24px;
+  background: var(--primary-color);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+h1 {
+  line-height: normal;
+  margin-bottom: 0;
+  font-size: 40px;
+}

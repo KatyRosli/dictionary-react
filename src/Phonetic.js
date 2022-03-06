@@ -10,8 +10,10 @@ export default function Phonetic(props) {
 
   return (
     <div className="Phonetic">
-      <button onClick={handleClick}>
-        <i className="fas fa-volume-up"></i>
+      <button onClick={handleClick} className="btn-listen">
+        <div className="listen-icon">
+          <i className="fas fa-volume-up"></i>
+        </div>
       </button>
       {play && (
         <ReactAudioPlayer
