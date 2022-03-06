@@ -14,13 +14,14 @@ function App() {
         </div>
       </div>
       <footer>
+        Open sourced on{" "}
         <a
           href="https://github.com/KatyRosli/dictionary-react"
           target="_blank"
           rel="noopener noreferrer"
           className="github"
         >
-          Open sourced on Github{" "}
+          Github{" "}
         </a>
         by
         <a
