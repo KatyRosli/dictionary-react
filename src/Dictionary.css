@@ -1,0 +1,20 @@
+.form-control {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  border-radius: 24px;
+  border-color: #4586af;
+  box-shadow: 0 0 4px #4586af;
+}
+
+.form-control:focus {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  border-radius: 24px;
+  outline: none;
+  border-color: #4586af;
+  box-shadow: 0 0 16px #4586af;
+}
